@@ -1,11 +1,16 @@
-class OOPSBannerApp{
-void  main(){
-        System.out.println(String.join("", " ***     ***    *****    ***** "));
-        System.out.println(String.join("", "** **   ** **   **  **   **  **"));
-        System.out.println(String.join("", "**  ** **  **   **  **   **  **"));
-        System.out.println(String.join("", "**   ***   **   *****    ***** "));
-        System.out.println(String.join("", "**    *    **   **       **    "));
-        System.out.println(String.join("", "**         **   **       **    "));
-        System.out.println(String.join("", "**         **   **       **    "));
-    }
+public class OOPSBannerApp {
+	public static void  main(String[] args) {
+		String[] lines = {
+			String.join(" ", "   ***   ", "   ***   ", "*******  ", "   ****  "),
+			String.join(" ", " **   ** ", " **   ** ", "**     **", " **    **"),
+			String.join(" ", "**     **", "**     **", "**     **", "**       "),
+			String.join(" ", "**     **", "**     **", "*******  ", "  *****  "),
+			String.join(" ", "**     **", "**     **", "**       ", "       **"),
+			String.join(" ", " **   ** ", " **   ** ", "**       ", "**    ** "),
+			String.join(" ", "   ***   ", "   ***   ", "**       ", "  ****   ")
+		};
+		for (String line:lines) {
+			System.out.println(line);
+		}
+	}
 }

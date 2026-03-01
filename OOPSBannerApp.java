@@ -1,5 +1,11 @@
 class OOPSBannerApp{
-void main(){
-System.out.println("OOPS");
-}
+void  main(){
+        System.out.println(String.join("", " ***     ***    *****    ***** "));
+        System.out.println(String.join("", "** **   ** **   **  **   **  **"));
+        System.out.println(String.join("", "**  ** **  **   **  **   **  **"));
+        System.out.println(String.join("", "**   ***   **   *****    ***** "));
+        System.out.println(String.join("", "**    *    **   **       **    "));
+        System.out.println(String.join("", "**         **   **       **    "));
+        System.out.println(String.join("", "**         **   **       **    "));
+    }
 }
